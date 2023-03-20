@@ -1,0 +1,169 @@
+#common{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border: black solid 3px;
+    background-image: url("../img/1667219219_1-celes-club-p-piksel-art-cherno-belii-instagram-1.jpg");
+    background-size: 300px 300px;
+
+}
+
+.lines{
+    width: 2px;
+    height: 300px;
+    background-color: blue;
+    transition: 3s;
+    display: inline-block;
+
+}
+
+.dots{
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: blue;
+    display: inline-block;
+
+}
+
+#line1{
+    margin-left: 10px;
+            animation: anim1 500ms ease alternate-reverse infinite;
+}
+
+#dot1{
+    margin-bottom: 200px;
+    margin-left: 10px;
+            animation: anim2 500ms ease alternate-reverse infinite;
+}
+
+#dot2{
+    margin-bottom: 100px;
+    margin-left: 20px;
+            animation: anim3 500ms ease alternate-reverse infinite;
+}
+
+#dot3{
+    margin-bottom: 150px;
+            animation: anim4 500ms ease alternate-reverse infinite;
+}
+
+#line2{
+    margin-left: 10px;
+            animation: anim3 500ms ease alternate-reverse infinite;
+}
+
+#dot4{
+    margin-bottom: 250px;
+        margin-left: 30px;
+            animation: anim2 500ms ease alternate-reverse infinite;
+}
+
+#dot5{
+    margin-bottom: 10px;
+        margin-left: 5px;
+            animation: anim3 500ms ease alternate-reverse infinite;
+}
+
+#dot6{
+    margin-bottom: 200px;
+        margin-left: 20px;
+    animation: anim4 500ms ease alternate-reverse infinite;
+}
+
+#dot7{
+    margin-bottom: 250px;
+        margin-left: 30px;
+            animation: anim1 500ms ease alternate-reverse infinite;
+}
+
+#dot8{
+    margin-bottom: 290px;
+        margin-left: 5px;
+            animation: anim2 500ms ease alternate-reverse infinite;
+}
+
+#dot9{
+    margin-bottom: 100px;
+           margin-left: 15px;
+            animation: anim3 500ms ease alternate-reverse infinite;
+}
+
+#dot10{
+    margin-bottom: 50px;
+            margin-left: 5px;
+            animation: anim4 500ms ease alternate-reverse infinite;
+}
+
+@keyframes anim1 {
+    0%{
+        background-color: blue;
+    }
+    25%{
+        background-color: transparent;
+    }
+    50%{
+        background-color: blue;
+    }
+    75%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: blue;
+    }
+}
+
+@keyframes anim2 {
+    0%{
+        background-color: transparent;
+    }
+    25%{
+        background-color: blue;
+    }
+    50%{
+        background-color: transparent;
+    }
+    75%{
+        background-color: blue;
+    }
+    100%{
+        background-color: transparent;
+    }
+}
+
+@keyframes anim3 {
+    0%{
+        background-color: transparent;
+    }
+    25%{
+        background-color: transparent;
+    }
+    50%{
+        background-color: blue;
+    }
+    75%{
+        background-color: blue;
+    }
+    100%{
+        background-color: transparent;
+    }
+}
+
+@keyframes anim4 {
+    0%{
+        background-color: blue;
+    }
+    25%{
+        background-color: blue;
+    }
+    50%{
+        background-color: transparent;
+    }
+    75%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: transparent;
+    }
+}
+

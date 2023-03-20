@@ -1,0 +1,64 @@
+body{
+    background-color: burlywood;
+}
+
+header{
+    width: 1500px;
+    padding: 10px 0 10px 0;
+    margin: auto;
+    background-color: brown;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+a{
+    color: darkgrey;
+}
+
+
+section{
+    width: 1500px;
+    margin: 10px auto;
+
+    letter-spacing: -1em;
+}
+
+.textleft{
+    width: 37%;
+    height: 700px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.textcenter{
+    width: 24%;
+    height: 900px;
+    background-color: red;
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.textright{
+    width: 37%;
+    height: 700px;
+    background-color: blue;
+    display: inline-block;
+    margin: 0;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.images{
+    width: min-content;
+        margin: auto;
+}
